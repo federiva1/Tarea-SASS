@@ -18,6 +18,12 @@
 .estiloFichaDos {
   font-size: 22px; }
 
+/*intento de mixin*/
+.primerMixin {
+  background-color: lightcoral;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem; }
+
 .modelo1 {
   font-family: "Gentium", sans-serif; }
 
