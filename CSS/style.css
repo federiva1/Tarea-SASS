@@ -1,4 +1,14 @@
+/*mapa*/
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap");
+.alfil {
+  color: grey; }
+
+.caballo {
+  color: orange; }
+
+.torre {
+  color: green; }
+
 .modelo1 {
   font-family: "Gentium", sans-serif; }
 

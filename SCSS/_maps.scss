@@ -1,10 +1,9 @@
-/*mapaFichas*/
+/*mapa*/
 
 $mapaFichas:(alfil: grey, caballo:orange, torre: green);
 
-
-@each $red, $color in $mapaFichas {
-    .#{$red} {
-        color: $color-uno;
+@each $fichas, $tono in $mapaFichas {
+    .#{$fichas} {
+        color: $tono;
     }
 }
