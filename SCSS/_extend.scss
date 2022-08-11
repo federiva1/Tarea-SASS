@@ -1,0 +1,13 @@
+/*intento primer extend*/ 
+
+.estiloFichaUno{
+    color: red;
+    text-decoration: solid;
+    text-align: left;
+}
+
+.estiloFichaDos{
+    @extend .estiloFichaUno;
+        font-size: 22px;
+    }
+

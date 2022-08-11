@@ -9,6 +9,15 @@
 .torre {
   color: green; }
 
+/*intento primer extend*/
+.estiloFichaUno, .estiloFichaDos {
+  color: red;
+  text-decoration: solid;
+  text-align: left; }
+
+.estiloFichaDos {
+  font-size: 22px; }
+
 .modelo1 {
   font-family: "Gentium", sans-serif; }
 
