@@ -25,29 +25,6 @@
   color: $color-dos;
 }
 
-body {
-  background-color: rgb(216, 162, 13);
-  background-image: url(../Imagenes/tab.jpg);
-}
-
-.footer1, .footer2 {
-  width: 45px;
-  height: 45px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 2px;
-  margin-bottom: 10px;
-}
-
-.footer3 {
-  width: 55px;
-  height: 55px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 2px;
-  margin-bottom: 10px;
-}
-
 #curso2, #curso3 {
   width: 180px;
   height: 180px;
@@ -82,7 +59,7 @@ header {
   grid-area: header;
   background-color: rgb(216, 162, 13);
   border: 4px black solid;
-  background: radial-gradient(red, blue);
+  background: radial-gradient(blue, green);
   display: flex;
   justify-content: center;
 }
@@ -138,6 +115,27 @@ h4, h3 {
 
 .letraContacto {
   color: antiquewhite;
+}
+
+.formatoCurso1{
+  width: 100%;
+  height: 100%;
+}
+
+
+.itemsCursos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fuenteCursos{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
+
+.fuenteCursos2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:medium
 }
 
 /*
